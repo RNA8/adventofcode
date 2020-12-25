@@ -4,7 +4,7 @@ from typing import NamedTuple, List, Dict
 from time import time
 
 timer = time()
-with open('inputs/input_day24.txt','r') as fid:
+with open('inputs/day24.txt','r') as fid:
     data = fid.read().splitlines()
 print("%d lines" % (len(data)))
 
